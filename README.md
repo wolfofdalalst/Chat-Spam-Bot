@@ -12,7 +12,7 @@ STEP 2 : Within 10 seconds click the text-box where the messages will be entered
 STEP 3 : The program will send 500 messages but incase you want to terminate the program before hand,\
 press the key "q" on your keyboard or press *ctrl+c* in the application window and the program will terminate.\
 
-To change the Fail Safe Key of the program, open *bot.py* and change the following variable :-
+To change the Fail Safe Key (which is "q" by default) of the program, open *bot.py* and change the following variable :-
 ```python
 SAFE_KEY = "[input your key here]"
 ``` 
