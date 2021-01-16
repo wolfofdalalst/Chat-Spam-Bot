@@ -1,37 +1,22 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/GuptaAyush19/Chat-Spam-Bot/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+## Chat-Spam-Bot
+#### Programming Language : Python3 
+Before running the program, make sure *pyautogui* and *keyboard* modules are installed.\
+To install them, enter these commands in CMD :-
 ```
+> pip install pyautogui 
+> pip install keyboard
+```
+### How to execute the program?
+STEP 1 : Execute the *SPAM.bat* file by either clicking it or executing it in CMD.\
+STEP 2 : Within 10 seconds click the text-box where the messages will be entered.\
+STEP 3 : The program will send 500 messages but incase you want to terminate the program before hand,\
+press the key "q" on your keyboard or press *ctrl+c* in the application window and the program will terminate.\
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/GuptaAyush19/Chat-Spam-Bot/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+To change the Fail Safe Key (which is "q" by default) of the program, open *bot.py* and change the following variable :-
+```python
+SAFE_KEY = "[input your key here]"
+``` 
+For example if one wants the Fail Safe Key to be "x", we make the following changes :-
+```python
+SAFE_KEY = "x"
+```
