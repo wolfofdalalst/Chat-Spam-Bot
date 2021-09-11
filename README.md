@@ -22,4 +22,4 @@ SAFE_KEY = "x"
 ```
 
 ## Disclaimer
-Please do not chat public channels, take permission before doing so. This repository is educational only. I will not be responsible if your system fails or you fall in some trouble.
+Please do not chat spam public channels, take permission before doing so. This repository is educational only. I will not be responsible if your system fails or you fall in some trouble.
